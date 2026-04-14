@@ -88,6 +88,7 @@ A four-method consensus was computed: genes called DE by ≥ 3 of the 4 methods 
 Stage 5 — Gene Set Analysis (ORA + GSEA)
 The gene ID format (Entrez integers) was already compatible with all databases — no conversion needed.
 ORA — Over-Representation Analysis (equivalent to paper's DAVID): Fisher exact test asking whether DEGs are over-represented in a given gene set compared to all tested genes. Run with clusterProfiler on three databases: GO (BP, MF, CC), KEGG, and Reactome. Visualized with barplots, dotplots, cnetplots, and enrichment maps.
+
 GSEA — Gene Set Enrichment Analysis (equivalent to paper's GSEA + MSigDB): All tested genes ranked by log fold-change (continuous, no threshold). The algorithm tests whether gene set members cluster at the top (up in COPD) or bottom (down in COPD) of the ranking. Key output is the Normalized Enrichment Score (NES). Run on KEGG and GO-BP. Individual enrichment plots produced for oxidative phosphorylation, protein catabolism, and chromatin modification — the three specific pathways highlighted in the paper.
 
 Wet Lab Pipeline
@@ -96,16 +97,21 @@ Patients were divided into two groups based on post-bronchodilator spirometry:
 
 
 COPD (n=98)
+
 Control (n=91)
+
 Age (years)
 67.5 ± 6.4
 60.9 ± 9.5
+
 Smoking (pack-years)
 48.0 ± 22.0
 35.2 ± 17.2
+
 FEV1 (%)
 71.9 ± 13.4
 91.0 ± 12.4
+
 FEV1/FVC
 57.1 ± 7.8
 74.8 ± 4.3
