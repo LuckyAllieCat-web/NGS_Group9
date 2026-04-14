@@ -101,19 +101,19 @@ COPD (n=98)
 Control (n=91)
 
 Age (years)
-67.5 ± 6.4
+67.5 ± 6.4,
 60.9 ± 9.5
 
 Smoking (pack-years)
-48.0 ± 22.0
+48.0 ± 22.0,
 35.2 ± 17.2
 
 FEV1 (%)
-71.9 ± 13.4
+71.9 ± 13.4,
 91.0 ± 12.4
 
 FEV1/FVC
-57.1 ± 7.8
+57.1 ± 7.8,
 74.8 ± 4.3
 
 The inclusion criterion for COPD was FEV1/FVC < 0.7; controls had normal spirometry. All subjects were smokers or ex-smokers.
